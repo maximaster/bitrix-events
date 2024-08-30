@@ -1,0 +1,23 @@
+{
+    "name": "maximaster/bitrix-events",
+    "description": "Коллекция событий для maximaster/bitrix-event-dispatcher.",
+    "license": "MIT",
+    "minimum-stability": "RC",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4|^8.2",
+        "webmozart/assert": "^1.10",
+        "maximaster/bitrix-table-classes": "^1.0.0",
+        "maximaster/bitrix-event-dispatcher": "^0.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maximaster\\BitrixEvents\\": "src/"
+        }
+    },
+    "authors": [
+        {"name": "Лавриненко Максим", "email": "maxim.lavrinenko@maximaster.ru"},
+        {"name": "Лепесин Сергей", "email": "s.lepesin@maximaster.ru"},
+        {"name": "Мельников Максим", "email": "m.melnikov@maximaster.ru"}
+    ]
+}

@@ -1,0 +1,734 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "369e21f4ad70571d4bb9da2738c014f5",
+    "packages": [
+        {
+            "name": "marcosh/lamphpda",
+            "version": "v3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marcosh/lamphpda.git",
+                "reference": "6688060a883efa67d77bdafbac308c11af347384"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marcosh/lamphpda/zipball/6688060a883efa67d77bdafbac308c11af347384",
+                "reference": "6688060a883efa67d77bdafbac308c11af347384",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 8.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.30",
+                "kahlan/kahlan": "^5.2",
+                "maglnet/composer-require-checker": "^4.7",
+                "vimeo/psalm": "^5.15"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marcosh\\LamPHPda\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Hippocratic-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Perone",
+                    "email": "pasafama@gmail.com"
+                }
+            ],
+            "description": "A collection of functional programming data structures",
+            "homepage": "https://github.com/marcosh/lamphpda",
+            "keywords": [
+                "Applicative",
+                "data structures",
+                "functional programming",
+                "functor",
+                "monad",
+                "monoid"
+            ],
+            "support": {
+                "issues": "https://github.com/marcosh/lamphpda/issues",
+                "source": "https://github.com/marcosh/lamphpda/tree/v3.1.1"
+            },
+            "time": "2024-08-29T08:13:54+00:00"
+        },
+        {
+            "name": "maximaster/bitrix-enums",
+            "version": "v18.5.180-rc.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maximaster/bitrix-enums.git",
+                "reference": "5b4e7c13798f9a9fdc3abf716a2ab055e604f7b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maximaster/bitrix-enums/zipball/5b4e7c13798f9a9fdc3abf716a2ab055e604f7b7",
+                "reference": "5b4e7c13798f9a9fdc3abf716a2ab055e604f7b7",
+                "shasum": ""
+            },
+            "require": {
+                "maximaster/bitrix-version": ">=18.5.180",
+                "myclabs/php-enum": "^1.7",
+                "php": "^7.4|^8.2",
+                "webmozart/assert": "^1.9.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.59",
+                "php-parallel-lint/php-parallel-lint": "^1.4",
+                "phpcompatibility/php-compatibility": "^9.3",
+                "squizlabs/php_codesniffer": "^3.10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Maximaster\\BitrixEnums\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Лавриненко Максим",
+                    "email": "maxim.lavrinenko@maximaster.ru"
+                },
+                {
+                    "name": "Лепесин Сергей",
+                    "email": "s.lepesin@maximaster.ru"
+                },
+                {
+                    "name": "Мельников Максим",
+                    "email": "m.melnikov@maximaster.ru"
+                }
+            ],
+            "description": "Предоставляет перечисления относящиеся к Битрикс, чтобы не использовать в коде строки или числа или знать о перечислениях Битрикса не подключая сам Битрикс (например не-Битрикс проектов которые обращаются к Битрикс по API)",
+            "support": {
+                "issues": "https://github.com/maximaster/bitrix-enums/issues",
+                "source": "https://github.com/maximaster/bitrix-enums/tree/v18.5.180-rc.5"
+            },
+            "time": "2024-08-28T09:35:05+00:00"
+        },
+        {
+            "name": "maximaster/bitrix-event-dispatcher",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maximaster/bitrix-event-dispatcher.git",
+                "reference": "3aa75bba0479ac55b72dfe7ecaa32cbc6149de83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maximaster/bitrix-event-dispatcher/zipball/3aa75bba0479ac55b72dfe7ecaa32cbc6149de83",
+                "reference": "3aa75bba0479ac55b72dfe7ecaa32cbc6149de83",
+                "shasum": ""
+            },
+            "require": {
+                "marcosh/lamphpda": "^3.0",
+                "maximaster/bitrix-value-objects": "^1.0",
+                "php": "^8.2",
+                "symfony/event-dispatcher": "^7.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.59",
+                "psalm/phar": "^5.25"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Maximaster\\BitrixEventDispatcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Лавриненко Максим",
+                    "email": "maxim.lavrinenko@maximaster.ru"
+                }
+            ],
+            "description": "EventDispatcherInterface-совместимый диспетчер для регистрации обработки событий вызываемых через API Битрикс.",
+            "support": {
+                "issues": "https://github.com/maximaster/bitrix-event-dispatcher/issues",
+                "source": "https://github.com/maximaster/bitrix-event-dispatcher/tree/v0.1.1"
+            },
+            "time": "2024-08-28T11:14:00+00:00"
+        },
+        {
+            "name": "maximaster/bitrix-orm-condition",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maximaster/bitrix-orm-condition.git",
+                "reference": "10638af940eae68f98d60f1e1bf171573d46beab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maximaster/bitrix-orm-condition/zipball/10638af940eae68f98d60f1e1bf171573d46beab",
+                "reference": "10638af940eae68f98d60f1e1bf171573d46beab",
+                "shasum": ""
+            },
+            "require": {
+                "maximaster/bitrix-enums": ">=18.5",
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Maximaster\\BitrixOrmCondition\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Лавриненко Максим",
+                    "email": "maxim.lavrinenko@maximaster.ru"
+                },
+                {
+                    "name": "Мельников Максим",
+                    "email": "m.melnikov@maximaster.ru"
+                }
+            ],
+            "description": "Удобные классы для работы с построением условий ORM-запросов.",
+            "support": {
+                "issues": "https://github.com/maximaster/bitrix-orm-condition/issues",
+                "source": "https://github.com/maximaster/bitrix-orm-condition/tree/v1.0.1"
+            },
+            "time": "2024-08-28T09:02:45+00:00"
+        },
+        {
+            "name": "maximaster/bitrix-table-classes",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maximaster/bitrix-table-classes.git",
+                "reference": "eb129087b9b3efdbd8153ce9a9458ba50c9142ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maximaster/bitrix-table-classes/zipball/eb129087b9b3efdbd8153ce9a9458ba50c9142ca",
+                "reference": "eb129087b9b3efdbd8153ce9a9458ba50c9142ca",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-iconv": "*",
+                "ext-json": "*",
+                "maximaster/bitrix-enums": ">=18.5",
+                "maximaster/bitrix-table-fields": "^1.0.0",
+                "php": ">=7.4.0"
+            },
+            "suggest": {
+                "wikimedia/php-session-serializer": "^2.0 для использования SessionTable::iterateSessionUserId"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Maximaster\\BitrixTableClasses\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Лавриненко Максим",
+                    "email": "maxim.lavrinenko@maximaster.ru"
+                },
+                {
+                    "name": "Мельников Максим",
+                    "email": "m.melnikov@maximaster.ru"
+                },
+                {
+                    "name": "Лепесин Сергей",
+                    "email": "s.lepesin@maximaster.ru"
+                }
+            ],
+            "description": "DataManager-классы для таблиц которые Битрикс пока не описал, описал плохо, либо заблокировал те или иные нужные методы.",
+            "support": {
+                "issues": "https://github.com/maximaster/bitrix-table-classes/issues",
+                "source": "https://github.com/maximaster/bitrix-table-classes/tree/v1.0.0"
+            },
+            "time": "2024-08-27T14:51:22+00:00"
+        },
+        {
+            "name": "maximaster/bitrix-table-fields",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maximaster/bitrix-table-fields.git",
+                "reference": "1c7682661c2e01c83aed755a635b84187b231725"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maximaster/bitrix-table-fields/zipball/1c7682661c2e01c83aed755a635b84187b231725",
+                "reference": "1c7682661c2e01c83aed755a635b84187b231725",
+                "shasum": ""
+            },
+            "require": {
+                "maximaster/bitrix-enums": ">=18.5",
+                "maximaster/bitrix-orm-condition": "^1.0.0",
+                "webmozart/assert": "^1.10"
+            },
+            "suggest": {
+                "ramsey/uuid": "^4.1 для использования GuidField",
+                "symfony/string": "^5.4 для использования ExternalField"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Maximaster\\BitrixTableFields\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Лавриненко Максим",
+                    "email": "maxim.lavrinenko@maximaster.ru"
+                },
+                {
+                    "name": "Мельников Максим",
+                    "email": "m.melnikov@maximaster.ru"
+                },
+                {
+                    "name": "Лепесин Сергей",
+                    "email": "s.lepesin@maximaster.ru"
+                }
+            ],
+            "description": "Дополнительные типы полей и валидаторы для ваших таблиц.",
+            "support": {
+                "issues": "https://github.com/maximaster/bitrix-table-fields/issues",
+                "source": "https://github.com/maximaster/bitrix-table-fields/tree/v1.0.0"
+            },
+            "time": "2024-08-27T13:45:40+00:00"
+        },
+        {
+            "name": "maximaster/bitrix-value-objects",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maximaster/bitrix-value-objects.git",
+                "reference": "cb190a9b0c1c7b18da4ca90ed4c0153f9b469af6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maximaster/bitrix-value-objects/zipball/cb190a9b0c1c7b18da4ca90ed4c0153f9b469af6",
+                "reference": "cb190a9b0c1c7b18da4ca90ed4c0153f9b469af6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4",
+                "webmozart/assert": "^1.10"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.59",
+                "kahlan/kahlan": "^5.2",
+                "psalm/phar": "^5.25"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Maximaster\\BitrixValueObjects\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Лавриненко Максим",
+                    "email": "maxim.lavrinenko@maximaster.ru"
+                }
+            ],
+            "description": "ValueObject'ы, которые могли бы быть в ядре Битрикса.",
+            "support": {
+                "issues": "https://github.com/maximaster/bitrix-value-objects/issues",
+                "source": "https://github.com/maximaster/bitrix-value-objects/tree/v1.0.0"
+            },
+            "time": "2024-07-15T11:39:01+00:00"
+        },
+        {
+            "name": "maximaster/bitrix-version",
+            "version": "v18.5.180-rc.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maximaster/bitrix-version.git",
+                "reference": "096d15c3c351e7c9a0a381ada8115d556aa2a0ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maximaster/bitrix-version/zipball/096d15c3c351e7c9a0a381ada8115d556aa2a0ef",
+                "reference": "096d15c3c351e7c9a0a381ada8115d556aa2a0ef",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Объявляет об используемой версии Битрикс, для возможности её учёта другими пакетами.",
+            "support": {
+                "issues": "https://github.com/maximaster/bitrix-version/issues",
+                "source": "https://github.com/maximaster/bitrix-version/tree/v18.5.180-rc.1"
+            },
+            "time": "2024-07-10T09:43:19+00:00"
+        },
+        {
+            "name": "myclabs/php-enum",
+            "version": "1.8.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/myclabs/php-enum.git",
+                "reference": "a867478eae49c9f59ece437ae7f9506bfaa27483"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/a867478eae49c9f59ece437ae7f9506bfaa27483",
+                "reference": "a867478eae49c9f59ece437ae7f9506bfaa27483",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "1.*",
+                "vimeo/psalm": "^4.6.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MyCLabs\\Enum\\": "src/"
+                },
+                "classmap": [
+                    "stubs/Stringable.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP Enum contributors",
+                    "homepage": "https://github.com/myclabs/php-enum/graphs/contributors"
+                }
+            ],
+            "description": "PHP Enum implementation",
+            "homepage": "http://github.com/myclabs/php-enum",
+            "keywords": [
+                "enum"
+            ],
+            "support": {
+                "issues": "https://github.com/myclabs/php-enum/issues",
+                "source": "https://github.com/myclabs/php-enum/tree/1.8.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/mnapoli",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/myclabs/php-enum",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-08-04T09:53:51+00:00"
+        },
+        {
+            "name": "psr/event-dispatcher",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/event-dispatcher.git",
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\EventDispatcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Standard interfaces for event handling.",
+            "keywords": [
+                "events",
+                "psr",
+                "psr-14"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/event-dispatcher/issues",
+                "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
+            },
+            "time": "2019-01-08T18:20:26+00:00"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "v7.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher.git",
+                "reference": "9fa7f7a21beb22a39a8f3f28618b29e50d7a55a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/9fa7f7a21beb22a39a8f3f28618b29e50d7a55a7",
+                "reference": "9fa7f7a21beb22a39a8f3f28618b29e50d7a55a7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2",
+                "symfony/event-dispatcher-contracts": "^2.5|^3"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<6.4",
+                "symfony/service-contracts": "<2.5"
+            },
+            "provide": {
+                "psr/event-dispatcher-implementation": "1.0",
+                "symfony/event-dispatcher-implementation": "2.0|3.0"
+            },
+            "require-dev": {
+                "psr/log": "^1|^2|^3",
+                "symfony/config": "^6.4|^7.0",
+                "symfony/dependency-injection": "^6.4|^7.0",
+                "symfony/error-handler": "^6.4|^7.0",
+                "symfony/expression-language": "^6.4|^7.0",
+                "symfony/http-foundation": "^6.4|^7.0",
+                "symfony/service-contracts": "^2.5|^3",
+                "symfony/stopwatch": "^6.4|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\EventDispatcher\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/event-dispatcher/tree/v7.1.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-05-31T14:57:53+00:00"
+        },
+        {
+            "name": "symfony/event-dispatcher-contracts",
+            "version": "v3.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+                "reference": "8f93aec25d41b72493c6ddff14e916177c9efc50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/8f93aec25d41b72493c6ddff14e916177c9efc50",
+                "reference": "8f93aec25d41b72493c6ddff14e916177c9efc50",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1",
+                "psr/event-dispatcher": "^1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "3.5-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\EventDispatcher\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to dispatching event",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.5.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-04-18T09:32:20+00:00"
+        },
+        {
+            "name": "webmozart/assert",
+            "version": "1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmozarts/assert.git",
+                "reference": "11cb2199493b2f8a3b53e7f19068fc6aac760991"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/11cb2199493b2f8a3b53e7f19068fc6aac760991",
+                "reference": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "php": "^7.2 || ^8.0"
+            },
+            "conflict": {
+                "phpstan/phpstan": "<0.12.20",
+                "vimeo/psalm": "<4.6.1 || 4.6.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5.13"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.10-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webmozart\\Assert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                }
+            ],
+            "description": "Assertions to validate method input/output with nice error messages.",
+            "keywords": [
+                "assert",
+                "check",
+                "validate"
+            ],
+            "support": {
+                "issues": "https://github.com/webmozarts/assert/issues",
+                "source": "https://github.com/webmozarts/assert/tree/1.11.0"
+            },
+            "time": "2022-06-03T18:03:27+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "RC",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.4|^8.2"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
